@@ -1,15 +1,27 @@
 <template>
   <div class="welcome">
-    {{ msg }}
+    <div class="header">
+      {{ msg }}
+    </div>
+
+    <div>
+      <v-btn color="primary" depressed elevation="3" plain text>Send</v-btn>
+    </div>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
+import { Octopus } from "../octopus.model";
 
 @Component
 export default class Welcome extends Vue {
   @Prop() private msg!: string;
+  @Prop() private octopus!: Octopus;
+
+  public setOctopus(octopus: Octopus): Octopus {
+    return octopus;
+  }
 }
 </script>
 

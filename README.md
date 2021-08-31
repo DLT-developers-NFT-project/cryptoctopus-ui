@@ -1,4 +1,4 @@
-# ocotpus-2
+# cryptoctopus
 
 ## Project setup
 ```

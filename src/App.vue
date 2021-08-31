@@ -9,6 +9,11 @@
 </template>
 
 <style lang="scss">
+:host {
+  height: 100%;
+  background: radial-gradient(#ff0079, #8c14c5);
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,7 +30,7 @@
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #ffc100;
     }
   }
 }
