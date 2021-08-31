@@ -4,10 +4,6 @@
       msg="Welcome to DLT Talents NFT Game!
 Please, enter your name to claim your NFT"
     />
-    <welcome-page
-      msg="Welcome to DLT Talents NFT Game!
-Please, enter your name to claim your NFT"
-    />
   </div>
 </template>
 
@@ -23,5 +19,3 @@ export default Vue.extend({
   },
 });
 </script>
-
-

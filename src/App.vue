@@ -9,17 +9,18 @@
 </template>
 
 <style lang="scss">
-:host {
+html,
+body {
   height: 100%;
-  background: radial-gradient(#ff0079, #8c14c5);
 }
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: 100%;
+  background: radial-gradient(#ff0079, #8c14c5);
 }
 
 #nav {

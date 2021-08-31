@@ -12,10 +12,10 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
-import { Octopus } from "../octopus.model";
+import { Octopus } from "../../models/octopus.model";
 
 @Component
-export default class Welcome extends Vue {
+export default class WelcomePage extends Vue {
   @Prop() private msg!: string;
   @Prop() private octopus!: Octopus;
 
